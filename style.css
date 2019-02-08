@@ -1,0 +1,56 @@
+body {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  background-color: #eee;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 12px;
+  color: #777;
+}
+div {
+  margin-bottom: 20px;
+}
+
+.todoapp {
+  background-color: white;
+  max-width: 600px;
+  max-height: 800px;
+  margin: auto;
+  margin-top: 15vh;
+  padding: 20px;
+}
+
+button {
+  font-size: 18px;
+  padding: 5px;
+  background: #eee;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+}
+
+button:hover {
+  background: #ddd;
+}
+
+button:active {
+  background: #ccc;
+}
+
+input {
+  font-size: 18px;
+  padding: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+
+}

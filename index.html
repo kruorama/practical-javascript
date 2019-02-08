@@ -1,38 +1,46 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-	<h1>Todo List</h1>
+	<section class='todoapp'>
+	<div>
+		<h1>Basic Todo List app</h1>
+	<div>
 	<div>
 		<button onclick="handlers.toggleAll()">Toggle all </button>
 	</div>
 	<div>
-		<input id="addTodoTextInput" type="text">
+		<h2>Add new todo</h2>
+		<input id="addTodoTextInput" placeholder="Todo text"type="text">
 		<button onclick="handlers.addTodo()"> Add</button>
 	</div>
 
 	<div>
-		<input id="changeTodoPositionInput" type="number">
-		<input id="changeTodoTextInput" type="text">
+		<h2>Change Todo</h2>
+		<input id="changeTodoPositionInput" placeholder="Todo number"  type="number">
+		<input id="changeTodoTextInput" placeholder="New todo text" type="text">
 		<button onclick="handlers.changeTodo()">Change</button>
 	</div>
 
 	<div>
-		<input id="toggleTodoPositionInput" type="number">
+		<h2>Toggle todo</h2>
+		<input id="toggleTodoPositionInput" placeholder="Todo number" type="number">
 		<button onclick="handlers.toggleTodo()">Toggle</button>
 	</div>
+
 
 	<div>
 		<ul>
 		</ul>
 	</div>
 
-	<script src="/script.js"></script>
-  
+	<script src="script.js"></script>
+</section>
 </body>
 
 </html>
